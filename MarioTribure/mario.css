@@ -1,3 +1,33 @@
-{
-    
+body{
+    background-color: #ffce29;
+    color: antiquewhite;
+}
+
+header{
+    background-color:  rgb(255, 57, 57);
+    background-color:  rgba(255, 57, 57, 0.8);
+}
+
+section{
+    background-color: teal;
+}
+
+section header{
+    color:#02e702;
+}
+
+aside{
+    background-color: #007b4a;
+}
+
+footer{
+    background-color:  rgb(255, 57, 57);
+}
+
+nav{
+    background-color: #007b4a;
+}
+
+h3{
+    color: #00deff;
 }
