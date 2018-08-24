@@ -1,15 +1,16 @@
 body{
-    background-color: #ffce29;
+    /* background-color: #ffce29; */
     color: antiquewhite;
+    background-image: url("https://jlaw21.github.io/resources/mario.png");
 }
 
 header{
-    background-color:  rgb(255, 57, 57);
-    background-color:  rgba(255, 57, 57, 0.8);
+    /* background-color:  rgb(255, 57, 57); */
+    /* background-color:  rgba(255, 57, 57, 0.8); */
 }
 
 section{
-    background-color: teal;
+    /* background-color: teal; */
 }
 
 section header{
@@ -17,15 +18,17 @@ section header{
 }
 
 aside{
-    background-color: #007b4a;
+    /* background-color: #007b4a; */
 }
 
 footer{
-    background-color:  rgb(255, 57, 57);
+    /* background-color:  rgb(255, 57, 57); */
 }
 
 nav{
-    background-color: #007b4a;
+    /* background-color: #007b4a; */
+    background-image: url("https://jlaw21.github.io/resources/mario-pipe.png");
+    background-size: contain;
 }
 
 h3{
