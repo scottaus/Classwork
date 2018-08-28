@@ -22,6 +22,8 @@ section{
 
 section header{
     color:#02e702;
+    line-height: 2em;
+    text-indent: 3px;
 }
 
 aside{
@@ -37,9 +39,12 @@ nav{
     background-image: url("https://jlaw21.github.io/Resources/mario-pipe.png");
     background-size: contain;
     border: 10px solid transparent;
-    border-image: url("https://jlaw21.github.io/Resources/mario-bricks.PNG") 30% round;
+    border-image: url("https://jlaw21.github.io/Resources/mario-bricks.PNG") 30% round; 
 }
 
+a{
+     text-decoration: none;
+}
 h3{
     color: #00deff;
     font-size: 1.4em;
@@ -50,8 +55,18 @@ p, li{
     font: small-caps 2em 'vt323', monospace;
 }
 
-h1{
-    color:#00deff;
-    font-style: oblique;
+p{
+    line-height: 1.6em;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: .05em;
+    word-spacing: .1em;
 }
+
+h1{
+    color: #00deff;
+    font-style: oblique;
+    text-shadow: 10px 10px 2px blue;
+    text-align: center;
+}
+
 
