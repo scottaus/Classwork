@@ -6,14 +6,20 @@ body{
     background-size: contain;
     background-position: center center;
     background-attachment: fixed;
-    font-size:100%
-
+    font-size:100%;
+    margin: auto;
+    padding: 0;
+    width:98%;
 }
 
 header{
     background-color:  rgb(255, 57, 57);
-    background-image: url("https://jlaw21.github.io/Resources/mario-pipe.png");
+    /* background-image: url("https://jlaw21.github.io/Resources/mario-pipe.png"); */
     font-family: 'press start 2P', cursive;
+    padding: 0 20pX 0 20px;
+    border: 10px double #02e702;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 section{
@@ -68,5 +74,3 @@ h1{
     text-shadow: 10px 10px 2px blue;
     text-align: center;
 }
-
-
