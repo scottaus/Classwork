@@ -1,0 +1,10 @@
+section{
+    font-size: 72px;
+}
+.clickme{
+    font-size: 72px;
+    border: solid 2px red;
+}
+.showme{
+    display:none;
+}
