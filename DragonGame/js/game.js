@@ -39,7 +39,7 @@ gameScene.create = function() {
     setXY: {
       x: 110,
       y: 100,
-      stepX: 80,
+      stepX: 100,
       stepY: 20
     }
   });
@@ -47,7 +47,7 @@ gameScene.create = function() {
   Phaser.Actions.ScaleXY(this.enemies.getChildren(), -0.5, -0.5);
 
   Phaser.Actions.Call(this.enemies.getChildren(), function(enemy) {
-    enemy.speed = Math.random() * 2 + 1;
+    enemy.speed = Math.random() * 1 + 1;
   }, this);
  
   this.cameras.main.resetFX(); 
