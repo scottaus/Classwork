@@ -1,6 +1,27 @@
+
 canvas {   
    display : block;  
    margin : auto;
    border: solid 10px rgb(16, 121, 16);
 }
+footer {
+   position:absolute;
+   bottom:0;
+   width:99%;
+   height:70px;  
+   background-color: #4CAF50;
+   text-align: center;
+}
 
+#Refresh{
+   background-color: #4CAF50;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+}
